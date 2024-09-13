@@ -1,0 +1,14 @@
+.forgot-navbar{
+    display: flex;
+    padding: 10px 60px;
+    justify-content: space-between;
+}
+.forgot-navbar button{
+    background-color: var(--blue-1);
+    padding: 0px 20px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}

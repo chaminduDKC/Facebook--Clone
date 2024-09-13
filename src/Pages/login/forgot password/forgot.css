@@ -1,0 +1,57 @@
+.forgot-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot-find-acc{
+    width: 100%;
+    background-color: var(--blue-5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.find-acc-box{
+    width: 400px;
+    margin: 0px auto;
+    border:none;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.55);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.find-acc-box h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.forgot-error{
+    border: 1px solid red;
+    padding: 6px 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 65, 65, 0.2);
+}
+.find-acc-box input{
+    font-size: 18px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    outline: none;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.buttons button{
+    font-size: 16px;
+    padding: 6px 12px;
+    border: none;
+    background-color: rgb(207, 207, 207);
+    border-radius: 4px;
+}
+button:nth-child(2) {
+    background-color: var(--blue-1);
+    border: none;
+    color: white;
+}

@@ -1,0 +1,101 @@
+.login-page{
+    background-color: rgb(241, 245, 248);
+    height: 100vh;
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    width: 400px;
+    margin: 0px auto;
+}
+.header{
+    color: var(--blue-1);
+    font-size: 60px;
+    user-select: none;
+}
+.login-box{
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.55);
+    padding: 20px;
+    border-radius: 6px;
+    gap: 10px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    
+    width: 100%;
+}
+form input{
+    padding:10px;
+    font-size: 18px;
+    outline: none;
+    opacity: 0.8;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.95) inset;
+}
+.error-msg{
+    color: red;
+    font-size: 14px;
+    margin-top: -14px;
+}
+.error-msg a{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+
+}
+.error-msg a:hover{
+    text-decoration: underline;
+}
+.submit-btn{
+    cursor: pointer;
+    color: white;
+    background-color: var(--blue-1);
+    padding: 10px 0px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 8px;
+    transition: all 0.2s;
+}
+.submit-btn:hover{
+    background-color: rgb(7, 114, 245);
+}
+.forgot-pwd{
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: var(--blue-1);
+    font-size: 16px;
+    margin-bottom: -10px;
+    transition: all 0.2s;
+}
+.forgot-pwd:hover{
+    text-decoration: underline;
+}
+form p{
+    margin: -10px auto;
+}
+.create-nw-acc{
+    background-color: rgb(96, 151, 13);
+    font-size: 18px;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 6px;
+    border: none;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.create-nw-acc:hover{
+    background-color: rgb(76, 122, 7);
+}
