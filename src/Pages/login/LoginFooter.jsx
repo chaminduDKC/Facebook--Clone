@@ -3,7 +3,8 @@ import './loginfooter.css'
 
 function LoginFooter() {
   return (
-    <div className="login-footer">
+    <div className="footer">
+      <div className="login-footer">
         <ul className="lans">
           <li>English (UK)</li>
           <li>සිංහල</li>
@@ -55,6 +56,7 @@ function LoginFooter() {
         </ul>
         <p className="login-options">Meta @ 24</p>
       </div>
+    </div>
   )
 }
 

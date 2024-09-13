@@ -1,6 +1,11 @@
+.footer{
+    width: 100%;
+    background-color: white;
+    padding: 30px;
 
+}
 .login-footer{
-    max-width: 900px;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
