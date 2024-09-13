@@ -50,7 +50,7 @@
     background-color: rgb(207, 207, 207);
     border-radius: 4px;
 }
-button:nth-child(2) {
+.buttons .search {
     background-color: var(--blue-1);
     border: none;
     color: white;

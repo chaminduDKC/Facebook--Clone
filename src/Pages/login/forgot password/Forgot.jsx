@@ -20,7 +20,7 @@ function Forgot() {
           </p>
           <input type="text" name="" id="" placeholder='Email address or mobile number' />
           <div className="buttons">
-            <button>Cancel</button><button>Search</button>
+            <button>Cancel</button><button className='search'>Search</button>
           </div>
         </div>
       </div>
