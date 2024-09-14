@@ -3,7 +3,7 @@ import './reset.css'
 import LoginNavbar from '../LoginNavbar'
 import LoginFooter from '../LoginFooter'
 
-function Reset() {
+function Reset({handleNotYou}) {
   return (
     <div>
       <LoginNavbar/>
@@ -11,7 +11,7 @@ function Reset() {
         <div className="reset-menu-box">
           <h2>Reset Your Password</h2>
           
-          <div className="box">
+          <div className="reset-box">
             <div className="left">
               <p>
               How do you want 
@@ -34,7 +34,8 @@ function Reset() {
             </div>
           </div>
           <div className="reset-menu-button">
-            <button>Not you</button><button className='continue'>Continue</button>
+            <button onClick={()=>{handleNotYou()}}>Not you</button>
+            <button className='continue'>Continue</button>
           </div>
         </div>
       </div>

@@ -99,3 +99,7 @@ form p{
 .create-nw-acc:hover{
     background-color: rgb(76, 122, 7);
 }
+.login-page-footer{
+    width: 100%;
+    padding: 0;
+}

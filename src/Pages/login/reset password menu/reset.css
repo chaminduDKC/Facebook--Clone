@@ -7,19 +7,21 @@
     margin: 0px auto;
     box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.55);
     border-radius: 6px;
+    background-color: white;
     
 }
 .reset-menu-box h2{
     border-bottom: 1px solid rgb(204, 204, 204,70%);
     padding: 18px;
 }
-.box{
+.reset-box{
     display: flex;
     align-items: center;
 }
 .left{
     padding: 18px;
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
     gap: 15px;
     width: 70%;
 }
@@ -34,6 +36,7 @@
     margin-left: 34px;
     margin-top: -10px;
 }
+
 .right p{
     font-size: 15px;
 }

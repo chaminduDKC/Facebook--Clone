@@ -2,7 +2,7 @@ import React from 'react'
 import './acc-create.css'
 import LoginFooter from '../../login/LoginFooter'
 
-function AccCreate() {
+function AccCreate({handleAlreadyHaveAccount}) {
   return (
     <div className='create-page'>
       <div className="create-form">
@@ -40,7 +40,7 @@ function AccCreate() {
               You may receive SMS notifications from us and can opt out at any time.</p>
               <div className="sign-up-buttons">
                 <button className='sign-up'>Sign Up</button>
-                <button className='already-have'>Already have an account?</button>
+                <button className='already-have' onClick={()=>{handleAlreadyHaveAccount()}}>Already have an account?</button>
               </div>
 
         </div>
