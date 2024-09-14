@@ -3,6 +3,7 @@ import Login from './Pages/login/LoginMenu/Login'
 import Forgot from './Pages/login/forgot password/Forgot'
 import Reset from './Pages/login/reset password menu/Reset'
 import AccCreate from './Pages/Create Account/Creating Page/AccCreate'
+import Home from './Pages/Home page/Home'
 
 const App = () => {
   const [showLoginMenu,setShowLoginMenu] = React.useState(true)
@@ -43,12 +44,17 @@ const App = () => {
   }
   return (
     <div>
-      <div className='login-pages'>
+      <div>
+        <Home/>
+      </div>
+
+
+      {/* <div className='login-pages'>
       {showLoginMenu && <Login handleForgotAccount = {handleForgotAccount} handleForgotPwd = {handleForgotPwd} handleCreateAccount = {handleCreateAccount}/>}
       {showForgotMenu && <Forgot handleSearchcancel={handleSearchcancel}/>}
       {showResetMenu && <Reset handleNotYou = {handleNotYou}/>}
       {accountCreateMenu && <AccCreate handleAlreadyHaveAccount = {handleAlreadyHaveAccount}/>}
-      </div>
+      </div> */}
     </div>
   )
 }
