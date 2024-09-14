@@ -59,8 +59,10 @@ function Forgot({handleSearchcancel}) {
       </div>}
       </div>
      
-      
+      <div className="login-page-footer">
       <LoginFooter/>
+      </div>
+      
       
     </div>
   )

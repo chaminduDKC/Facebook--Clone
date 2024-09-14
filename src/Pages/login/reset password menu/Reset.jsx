@@ -39,7 +39,10 @@ function Reset({handleNotYou}) {
           </div>
         </div>
       </div>
+      <div className="login-page-footer">
       <LoginFooter/>
+      </div>
+      
     </div>
   )
 }

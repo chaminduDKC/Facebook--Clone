@@ -45,7 +45,7 @@ function AccCreate({handleAlreadyHaveAccount}) {
 
         </div>
       </div>
-      <div className="acc-cr-navbar">
+      <div className="login-page-footer">
       <LoginFooter/>
       </div>
     </div>

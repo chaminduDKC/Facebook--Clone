@@ -1,8 +1,9 @@
 .footer{
     width: 100%;
     background-color: white;
-    padding: 30px;
+    padding: 20px;
     margin-top: 45px;
+
 }
 .login-footer{
     max-width: 1000px;
@@ -11,6 +12,7 @@
     margin: 0 auto;
     margin-top: 20px;
     padding: 0px 50px;
+    height: 140px;
 }
 .lans,.login-options{
     max-width: 100%;
