@@ -45,7 +45,7 @@ const App = () => {
   return (
     <div>
       <div>
-        <Home/>
+         <Home/> 
       </div>
 
 
