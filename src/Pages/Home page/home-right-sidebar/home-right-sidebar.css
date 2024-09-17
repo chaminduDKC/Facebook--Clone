@@ -1,0 +1,169 @@
+.home_right_sidebar{
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column;
+}
+.right_bar_pages{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.right_bar_pages .your_pages{
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.page_name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.page_name img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.page_options{
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.page_options .switch_page,
+.page_options .create_promotion{
+    display: flex;
+}
+
+
+
+
+
+
+.home_right_sidebar .requests{
+    padding: 20px;
+}
+
+.home_right_sidebar .requests .title{
+    display: flex;
+    justify-content: space-between;
+}
+.request .description{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+.requests .request{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.request .description img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.name_mutual .mutual{
+    display: flex;
+}
+.mutual .mutual_text{
+    width: 200px;
+}
+.mutual .mutual_image{
+    margin-left: -8px;
+    z-index: -1;
+}
+.name_mutual .mutual img{
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+}
+.description .days{
+    margin-left: 36%;
+}
+.requests .buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 80%;
+}
+.requests .title p{
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+
+
+.birthdays{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.birthdays div{
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+
+}
+
+
+
+
+
+
+.right_bar_contacts{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+.right_bar_contacts .contact_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right_bar_contacts .contact_title div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.right_bar_contacts .contact_title p{
+    font-size: 20px;
+}
+.right_bar_contacts .contact_title .icon_search{
+    font-size: 20px;
+}
+.right_bar_contacts .contact{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right_bar_contacts .contact img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.right_bar_contacts .contact .img_online{
+    position: relative;
+}
+.right_bar_contacts .contact .online_circle{
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgb(0, 184, 0);
+}

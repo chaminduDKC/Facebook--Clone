@@ -187,12 +187,17 @@
 }
 
 
+@media (max-width:1500px){
+    .nav-search-box{
+        width: 200px;
+    }
+}
 
 
-
-@media (max-width:1260px) {
+@media (max-width:1300px) {
     .nav-search-box{
         width: 40px;
+        margin-right: 150px;
     }
     .nav-search-box input{
         display: none;
@@ -201,6 +206,9 @@
         width: 500px;
     }
 }
+
+
+
 @media (max-width:840px){
     .middle-nav-section{
         width: 80%;

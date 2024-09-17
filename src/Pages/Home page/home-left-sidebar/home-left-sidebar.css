@@ -52,3 +52,14 @@
     border-bottom: 1px solid rgb(214, 214, 214);
     gap: 10px;
 }
+
+
+
+@media (max-width:1300px){
+    .home_left_sidebar .top_section .left_name p,
+    .home_left_sidebar .top_section div p,
+    .home_left_sidebar .bottom_section div p
+    {
+        display: none;
+    }
+}

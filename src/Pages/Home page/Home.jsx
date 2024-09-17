@@ -11,10 +11,16 @@ function Home() {
     <div>
      <NavbarDesktop /> 
      <div className='home-content'>
+      <div className="left-content">
       <HomeLeftSidebar/>
+      </div>
+      <div className="middle-content">
       <HomeMiddleSection/>
+      </div>
 
+      <div className="right-content">
       <HomeRightSidebar/>
+      </div>
      </div>
      
     </div>
